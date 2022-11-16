@@ -5,3 +5,29 @@
 
   color: #fff;
 }
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2A2626;
+}
+h1 {
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+  font-size: 72px;
+}
+h2 {
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+  font-size: 60px;
+}
+h2 {
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+  font-size: 34px;
+}
+div {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
