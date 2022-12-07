@@ -8,6 +8,7 @@
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Neucha', cursive;
   line-height: 1.2em;
+  font-weight: 400;
 }
 h1 {
   font-size: 72px;
@@ -23,7 +24,7 @@ h3 {
 
 .wrapper {
   width: 1110px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 body {
   margin: 0;
@@ -35,7 +36,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
   background-color: #F5F4F0;
 }
 .section-background-light::before {
@@ -63,6 +63,7 @@ body {
   position: absolute;
   top: 55px;
   right: -270px;
+  /* right: 0px; */
   height: 525px;
 }
 
@@ -86,6 +87,9 @@ body {
   border: none;
   margin-top: 14px;
 }
+.btn-header:hover {
+  background-color: #EA7600;
+}
 
 /* Section-2 (video) */
 
@@ -93,7 +97,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
 }
 .video-headline {
   text-align: center;
@@ -232,7 +235,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
   vertical-align: middle;
   background-color: #B09A81;
 }
@@ -293,3 +295,99 @@ body {
 }
 
 /*Footer*/
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.subscribe {
+  padding: 55px;
+  display: flex;
+  background-color: #42413C;
+}
+.subscribe-question {
+  flex: 1;
+  font-family: 'Neucha';
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 41px;
+
+  color: #FFFFFF;
+}
+.email {
+  flex:1;
+}
+.email-label {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+}
+.input-email {
+  box-sizing: border-box;
+  display: flex;
+}
+.input-email-area {
+  box-sizing: border-box;
+  padding: 15px;
+  height: 50px;
+  width: 440px;
+  border: none;
+}
+.input-email-btn {
+  box-sizing: border-box;
+  position: relative;
+  background-color: #FE8A02;
+  height: 50px;
+  width: 70px;
+  border: none;
+  padding: 0;
+}
+.input-email-btn::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 15px;
+  left: 25px;
+
+  background-image: url(/images/send.svg);
+  background-repeat: no-repeat;
+
+  content: "";
+
+}
+
+.agreement {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+
+  color: #FFFFFF;
+}
+.agreement-link {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+
+  color: #FFFFFF;
+}
+
+.about {
+  padding-top: 60px;
+}
+.footer-text {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  text-align: center;
+
+  color: #000000;
+}
+.footer-link {
+  color: #1085C5;
+}
