@@ -109,7 +109,6 @@ body {
 }
 .video-headline {
   text-align: center;
-  margin-bottom: 30px;
 }
 .orange-h2 {
   font-family: 'Neucha', cursive;
@@ -137,17 +136,21 @@ body {
 .cards {
   display: flex;
   column-gap: 30px;
-  row-gap: 20px;
+  /* row-gap: 20px; */
   flex-wrap: wrap;
 }
 .card {
   box-sizing: border-box;
   width: 350px;
-  height: 350px;
+  height: 348px;
   text-decoration: none;
   padding: 24px;
   background-color: #F5F4F0;
 }
+.card:nth-child(-n+3) {
+  height: 323px;
+}
+
 .card:hover {
   background-color: #FE8A02;
 }
