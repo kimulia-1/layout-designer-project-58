@@ -324,7 +324,6 @@ body {
   justify-content: center;
 }
 .subscribe {
-  padding: 55px;
   display: flex;
   background-color: #42413C;
 }
@@ -334,18 +333,21 @@ body {
   font-weight: 400;
   font-size: 34px;
   line-height: 41px;
+  margin: 0;
+  padding: 55px;
 
   color: #FFFFFF;
 }
 .email {
   flex:1;
+  padding-top: 38px;
+  padding-right: 55px;
 }
 .email-label {
   font-family: 'Open Sans';
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
-
   color: #FFFFFF;
 }
 .input-email {
