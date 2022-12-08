@@ -1,23 +1,32 @@
 /** CSS STYLE **/
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
-  color: #2A2626;
+  color: #2a2626;
 }
-h1,h2,h3,h4,h5,h6 {
-  font-family: 'Neucha', cursive;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Neucha", cursive;
   line-height: 1.2em;
   font-weight: 400;
 }
+
 h1 {
   font-size: 72px;
   margin: 0;
 }
+
 h2 {
   font-size: 60px;
   margin: 0;
 }
+
 h3 {
   font-size: 34px;
 }
@@ -26,6 +35,7 @@ h3 {
   width: 1110px;
   padding: 100px 0px;
 }
+
 body {
   margin: 0;
 }
@@ -36,32 +46,36 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F5F4F0;
+  background-color: #f5f4f0;
 }
+
 .section-background-light::before {
   position: absolute;
   width: 100%;
   height: 100%;
 
-  background-image: url(../images/background.png);
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 
   opacity: 0.1;
   content: "";
 }
+
 .headline {
   margin-top: -100px;
   padding-top: 100px;
   display: flex;
   position: relative;
 }
+
 .orange {
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   line-height: 1.2em;
   font-size: 72px;
-  color: #FE8A02;
+  color: #fe8a02;
 }
+
 .header-img {
   position: absolute;
   top: 55px;
@@ -74,12 +88,15 @@ body {
   column-gap: 30px;
   padding-top: 185px;
 }
+
 .column-1 {
   flex: 1;
 }
+
 .column-2 {
   flex: 1;
 }
+
 .btn-header {
   position: relative;
   display: block;
@@ -94,10 +111,11 @@ body {
   font-weight: 700;
   text-decoration: none;
   background-color: #FE8A02;
-  color: #FFFFFF;
+  color: #ffffff;
 }
+
 .btn-header:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }
 
 /* Section-2 (video) */
@@ -107,18 +125,22 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 .video-headline {
   text-align: center;
 }
+
 .orange-h2 {
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   line-height: 1.2em;
   font-size: 60px;
-  color: #FE8A02;
+  color: #fe8a02;
 }
+
 .video-description {
   margin: 30px 0;
 }
+
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
@@ -128,40 +150,45 @@ body {
 .nav-section {
   display: flex;
   justify-content: center;
-  background-color: #42413C;
+  background-color: #42413c;
 
   margin-top: -200px;
   padding-top: 100px;
 }
+
 .cards {
   display: flex;
   column-gap: 30px;
-  /* row-gap: 20px; */
   flex-wrap: wrap;
 }
+
 .card {
   box-sizing: border-box;
   width: 350px;
   height: 348px;
   text-decoration: none;
   padding: 24px;
-  background-color: #F5F4F0;
+  background-color: #f5f4f0;
 }
+
 .card:nth-child(-n+3) {
   height: 323px;
 }
 
 .card:hover {
-  background-color: #FE8A02;
+  background-color: #fe8a02;
 }
+
 .card:hover > .number-card {
-  color: #FFFFFF;
+  color: #ffffff;
 }
+
 .card:hover > .name-card {
-  color: #FFFFFF;
+  color: #ffffff;
 }
+
 .card:hover > .discription-card {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .nav-title {
@@ -170,32 +197,38 @@ body {
   height: 350px;
   text-decoration: none;
 }
+
 .nav-title > span {
   font-size: 52px;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   line-height: 1.2em;
 }
+
 .white-52px {
-  color: #FFFFFF;
+  color: #ffffff;
 }
+
 .orange-52px {
-  color: #FE8A02;
+  color: #fe8a02;
 }
+
 .number-card {
   margin: 0;
   padding-bottom: 40px;
   font-size: 64px;
-  font-family: 'Neucha';
+  font-family: "Neucha";
   line-height: 1;
 }
+
 .name-card {
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   font-size: 34px;
-  color: #FE8A02;
+  color: #fe8a02;
   margin: 0;
   padding-bottom: 16px;
   line-height: 41px;
 }
+
 .discription-card {
   margin: 0;
   font-size: 16px;
@@ -207,47 +240,55 @@ body {
   display: flex;
   column-gap: 30px;
 }
+
 .img-effects {
   filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
 }
+
 .topic-1-light {
   margin: 0;
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
   color: #908D8B;
 }
+
 .name-effect-light {
   font-weight: 400;
 }
+
 .topic-2-light {
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-weight: normal;
   font-size: 34px;
   line-height: 41px;
-  color: #2A2626;
+  color: #2a2626;
 }
+
 .description-title-light {
-  background-color: #B09A81;
+  background-color: #b09a81;
   margin-top: 100px;
   margin-bottom: 20px;
 }
+
 .description-title-light > h4 {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 700;
   line-height: 17px;
   font-size: 14px;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   padding: 5px 10px
 }
+
 .description-blocks {
   display: flex;
   column-gap: 30px;
 }
+
 .description-text-light-block {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   line-height: 25px;
   font-size: 16px;
@@ -263,59 +304,66 @@ body {
   justify-content: center;
   align-items: center;
   vertical-align: middle;
-  background-color: #B09A81;
+  background-color: #b09a81;
 }
+
 .section-background-dark::before {
   position: absolute;
   width: 100%;
   height: 100%;
 
-  background-image: url(../images/background.png);
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 
   opacity: 0.1;
   content: "";
 }
+
 .topic-1-dark {
   margin: 0;
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
-  color: #D7CCC0;
+  color: #d7ccc0;
 }
+
 .name-effect-dark {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 400;
 }
+
 .topic-2-dark {
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-weight: normal;
   font-size: 34px;
   line-height: 41px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
+
 .description-title-dark {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-top: 100px;
   margin-bottom: 20px;
 }
+
 .description-title-dark > h4 {
   font-family: 'Open Sans';
   font-weight: 700;
   line-height: 17px;
   font-size: 14px;
   text-transform: uppercase;
-  color: #B09A81;
+  color: #b09a81;
   padding: 5px 10px
 }
+
 .description-text-dark-block {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   line-height: 25px;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
 
   flex: 1;
   margin: 0;
@@ -326,37 +374,43 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .subscribe {
   display: flex;
-  background-color: #42413C;
+  background-color: #42413c;
 }
+
 .subscribe-question {
   flex: 1;
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-weight: 400;
   font-size: 34px;
   line-height: 41px;
   margin: 0;
   padding: 55px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
+
 .email {
   flex:1;
   padding-top: 38px;
   padding-right: 55px;
 }
+
 .email-label {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
+
 .input-email {
   box-sizing: border-box;
   display: flex;
 }
+
 .input-email-area {
   box-sizing: border-box;
   padding: 15px;
@@ -364,18 +418,21 @@ body {
   width: 440px;
   border: none;
 }
+
 .input-email-btn {
   box-sizing: border-box;
   position: relative;
-  background-color: #FE8A02;
+  background-color: #fe8a02;
   height: 50px;
   width: 70px;
   border: none;
   padding: 0;
 }
+
 .input-email-btn:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }
+
 .input-email-btn::before {
   position: absolute;
   width: 100%;
@@ -383,35 +440,36 @@ body {
   top: 15px;
   left: 25px;
 
-  background-image: url(../images/send.svg);
+  background-image: url("../images/send.svg");
   background-repeat: no-repeat;
 
   content: "";
-
 }
 
 .agreement {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 12px;
   line-height: 19px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
+
 .agreement-link {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 12px;
   line-height: 19px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .about {
   padding-top: 60px;
 }
+
 .footer-text {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
@@ -420,6 +478,7 @@ body {
 
   color: #000000;
 }
+
 .footer-link {
-  color: #1085C5;
+  color: #1085c5;
 }
