@@ -14,7 +14,7 @@ make lint
 
 ## You can see this project on Surge
 
-https://kimulia-1-project-1.surge.sh
+https://kimulia-1-layout-designer-project-58.surge.sh
 
 ---
 
