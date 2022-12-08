@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
   font-weight: 400;
 }
@@ -33,14 +33,14 @@ h3 {
 
 .wrapper {
   width: 1110px;
-  padding: 100px 0px;
+  padding: 100px 0;
 }
 
 body {
   margin: 0;
 }
 
-/*Section 1*/
+/* Section 1 */
 .section-background-light {
   position: relative;
   display: flex;
@@ -70,7 +70,7 @@ body {
 }
 
 .orange {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
   font-size: 72px;
   color: #fe8a02;
@@ -110,8 +110,8 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   text-decoration: none;
-  background-color: #FE8A02;
-  color: #ffffff;
+  background-color: #fe8a02;
+  color: #fff;
 }
 
 .btn-header:hover {
@@ -131,7 +131,7 @@ body {
 }
 
 .orange-h2 {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
   font-size: 60px;
   color: #fe8a02;
@@ -145,7 +145,7 @@ body {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-/*Section 3 (navigation)*/
+/* Section 3 (navigation) */
 
 .nav-section {
   display: flex;
@@ -171,26 +171,6 @@ body {
   background-color: #f5f4f0;
 }
 
-.card:nth-child(-n+3) {
-  height: 323px;
-}
-
-.card:hover {
-  background-color: #fe8a02;
-}
-
-.card:hover > .number-card {
-  color: #ffffff;
-}
-
-.card:hover > .name-card {
-  color: #ffffff;
-}
-
-.card:hover > .discription-card {
-  color: #ffffff;
-}
-
 .nav-title {
   box-sizing: border-box;
   width: 350px;
@@ -200,12 +180,12 @@ body {
 
 .nav-title > span {
   font-size: 52px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
 }
 
 .white-52px {
-  color: #ffffff;
+  color: #fff;
 }
 
 .orange-52px {
@@ -216,12 +196,12 @@ body {
   margin: 0;
   padding-bottom: 40px;
   font-size: 64px;
-  font-family: "Neucha";
+  font-family: Neucha;
   line-height: 1;
 }
 
 .name-card {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   font-size: 34px;
   color: #fe8a02;
   margin: 0;
@@ -234,8 +214,29 @@ body {
   font-size: 16px;
 }
 
-/*Sections 4-8*/
-/*Light-theme*/
+.card:nth-child(-n+3) {
+  height: 323px;
+}
+
+.card:hover {
+  background-color: #fe8a02;
+}
+
+.card:hover > .number-card {
+  color: #fff;
+}
+
+.card:hover > .name-card {
+  color: #fff;
+}
+
+.card:hover > .discription-card {
+  color: #fff;
+}
+
+/* Sections 4-8 */
+
+/* Light-theme */
 .effect-headline {
   display: flex;
   column-gap: 30px;
@@ -247,11 +248,11 @@ body {
 
 .topic-1-light {
   margin: 0;
-  font-family: "Neucha";
+  font-family: Neucha;
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
-  color: #908D8B;
+  color: #908d8b;
 }
 
 .name-effect-light {
@@ -259,7 +260,7 @@ body {
 }
 
 .topic-2-light {
-  font-family: "Neucha";
+  font-family: Neucha;
   font-weight: normal;
   font-size: 34px;
   line-height: 41px;
@@ -278,7 +279,7 @@ body {
   line-height: 17px;
   font-size: 14px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   padding: 5px 10px
 }
 
@@ -297,7 +298,7 @@ body {
   margin: 0;
 }
 
-/*Dark theme*/
+/* Dark theme */
 .section-background-dark {
   position: relative;
   display: flex;
@@ -322,7 +323,7 @@ body {
 
 .topic-1-dark {
   margin: 0;
-  font-family: "Neucha";
+  font-family: Neucha;
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
@@ -330,26 +331,26 @@ body {
 }
 
 .name-effect-dark {
-  color: #ffffff;
+  color: #fff;
   font-weight: 400;
 }
 
 .topic-2-dark {
-  font-family: "Neucha";
+  font-family: Neucha;
   font-weight: normal;
   font-size: 34px;
   line-height: 41px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .description-title-dark {
-  background-color: #ffffff;
+  background-color: #fff;
   margin-top: 100px;
   margin-bottom: 20px;
 }
 
 .description-title-dark > h4 {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 700;
   line-height: 17px;
   font-size: 14px;
@@ -363,13 +364,13 @@ body {
   font-weight: 400;
   line-height: 25px;
   font-size: 16px;
-  color: #ffffff;
+  color: #fff;
 
   flex: 1;
   margin: 0;
 }
 
-/*Footer*/
+/* Footer */
 .footer {
   display: flex;
   justify-content: center;
@@ -382,14 +383,14 @@ body {
 
 .subscribe-question {
   flex: 1;
-  font-family: "Neucha";
+  font-family: Neucha;
   font-weight: 400;
   font-size: 34px;
   line-height: 41px;
   margin: 0;
   padding: 55px;
 
-  color: #ffffff;
+  color: #fff;
 }
 
 .email {
@@ -403,7 +404,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .input-email {
@@ -452,7 +453,7 @@ body {
   font-size: 12px;
   line-height: 19px;
 
-  color: #ffffff;
+  color: #fff;
 }
 
 .agreement-link {
@@ -461,7 +462,7 @@ body {
   font-size: 12px;
   line-height: 19px;
 
-  color: #ffffff;
+  color: #fff;
 }
 
 .about {
@@ -476,7 +477,7 @@ body {
 
   text-align: center;
 
-  color: #000000;
+  color: #000;
 }
 
 .footer-link {
