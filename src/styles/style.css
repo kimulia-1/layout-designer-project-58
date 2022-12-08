@@ -196,7 +196,7 @@ body {
   margin: 0;
   padding-bottom: 40px;
   font-size: 64px;
-  font-family: Neucha;
+  font-family: Neucha, cursive;
   line-height: 1;
 }
 
@@ -243,12 +243,12 @@ body {
 }
 
 .img-effects {
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .topic-1-light {
   margin: 0;
-  font-family: Neucha;
+  font-family: Neucha, cursive;
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
@@ -260,7 +260,7 @@ body {
 }
 
 .topic-2-light {
-  font-family: Neucha;
+  font-family: Neucha, cursive;
   font-weight: normal;
   font-size: 34px;
   line-height: 41px;
@@ -274,13 +274,13 @@ body {
 }
 
 .description-title-light > h4 {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   line-height: 17px;
   font-size: 14px;
   text-transform: uppercase;
   color: #fff;
-  padding: 5px 10px
+  padding: 5px 10px;
 }
 
 .description-blocks {
@@ -289,7 +289,7 @@ body {
 }
 
 .description-text-light-block {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 25px;
   font-size: 16px;
@@ -323,7 +323,7 @@ body {
 
 .topic-1-dark {
   margin: 0;
-  font-family: Neucha;
+  font-family: Neucha, cursive;
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
@@ -336,7 +336,7 @@ body {
 }
 
 .topic-2-dark {
-  font-family: Neucha;
+  font-family: Neucha, cursive;
   font-weight: normal;
   font-size: 34px;
   line-height: 41px;
@@ -350,17 +350,17 @@ body {
 }
 
 .description-title-dark > h4 {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   line-height: 17px;
   font-size: 14px;
   text-transform: uppercase;
   color: #b09a81;
-  padding: 5px 10px
+  padding: 5px 10px;
 }
 
 .description-text-dark-block {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 25px;
   font-size: 16px;
@@ -383,7 +383,7 @@ body {
 
 .subscribe-question {
   flex: 1;
-  font-family: Neucha;
+  font-family: Neucha, cursive;
   font-weight: 400;
   font-size: 34px;
   line-height: 41px;
@@ -394,13 +394,13 @@ body {
 }
 
 .email {
-  flex:1;
+  flex: 1;
   padding-top: 38px;
   padding-right: 55px;
 }
 
 .email-label {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
@@ -448,7 +448,7 @@ body {
 }
 
 .agreement {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 19px;
@@ -457,7 +457,7 @@ body {
 }
 
 .agreement-link {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 19px;
@@ -470,7 +470,7 @@ body {
 }
 
 .footer-text {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
